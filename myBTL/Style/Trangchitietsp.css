@@ -1,0 +1,411 @@
+﻿.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1010; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    padding-top: 5rem;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: .1rem solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+}
+
+/* The Modal Close Button (x) */
+.close {
+    position: absolute;
+    right: 35rem;
+    top: 6rem;
+    font-size: 5rem;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+    .close:hover,
+    .close:focus {
+        color: #f44336;
+        cursor: pointer;
+    }
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(12,8.33333%);
+    grid-column: 1/13;
+    background-color: aquamarine;
+}
+
+#logo {
+    grid-column: 1/2;
+    margin-left: 50px;
+}
+
+    #logo img {
+        padding: 5px;
+        width: 60px;
+        margin-top: 0px;
+    }
+
+.search_field {
+    display: flex;
+    grid-column: 3/10;
+    align-items: start;
+    margin-top: 15px;
+}
+
+    .search_field .searchbox {
+        width: 600px;
+        height: 40px;
+    }
+
+    .search_field .btnSearch {
+        background-color: yellow;
+        height: 40px;
+    }
+
+.login {
+    margin-top: 20px;
+    grid-column: 10/11;
+    font-size: 20px;
+}
+
+.giohang {
+    margin-top: 20px;
+    grid-column: 11/13;
+    font-size: 20px;
+}
+
+    .login a:hover, .giohang a:hover {
+        text-decoration: underline;
+    }
+
+    .login a, .giohang a, .giohang i {
+        color: black;
+    }
+
+/*Menu*/
+.navbar {
+    overflow: hidden;
+    background-color: aquamarine;
+    font-family: Arial;
+}
+    /* đường dẫn bên trong navigation */
+    .navbar a {
+        font-family: 'Times New Roman', Times, serif;
+        float: left;
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+/* thành phần dropdown */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+    /* nút dropdown */
+    .dropdown .nut_dropdown {
+        border: none;
+        outline: none;
+        color: black;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        margin: 0;
+    }
+    /* thêm màu background khi nút dropdown khi hover */
+    .navbar a:hover, .dropdown:hover .nut_dropdown {
+        text-decoration: underline;
+    }
+
+/* Ẩn nội dung dropdown*/
+.noidung_dropdown {
+    column-count: 2;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
+}
+    /* thiết lập style cho đường dẫn bên trong dropdown */
+    .noidung_dropdown a {
+        font-family: 'Times New Roman', Times, serif;
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+/* chọn background cho đường dẫn bên trong dropdown khi hover*/
+/*        .noidung_dropdown a:hover {
+            background-color: #ddd;
+        }*/
+/* Hiển thị nội dung dropdown khi được hover */
+.dropdown:hover .noidung_dropdown {
+    display: block;
+}
+/*    footer*/
+#footer {
+    display: grid;
+    grid-column: 1/13;
+    height: 200px;
+    grid-template-columns: repeat(12,8.33333%);
+    background-color: aquamarine;
+    color: black;
+    margin-top: 40px;
+}
+
+    #footer .footer1 {
+        grid-column: 4/8;
+        margin: auto 55px 15px 0;
+    }
+
+        #footer .footer1 p {
+            padding: 10px 0;
+        }
+
+    #footer .footer2 {
+        grid-column: 8/13;
+        margin: auto 55px 15px 0;
+    }
+
+        #footer .footer2 p {
+            padding: 10px 0;
+        }
+
+        #footer .footer2 a {
+            color: black;
+            text-decoration: none;
+        }
+
+            #footer .footer2 a:hover {
+                text-decoration: underline;
+            }
+
+/*            Main*/
+#main {
+    display: grid;
+    grid-template-columns: repeat(12,8.33333%);
+    grid-column: 1/13;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+    #main #main1 {
+        grid-column: 1/13;
+        margin-top: 20px;
+        margin-left:15px;
+        margin-bottom:30px;
+    }
+
+#main1 p a,#main1 p span {
+    text-align:left;
+    color: dimgray;
+    font-family:'Times New Roman', Times, serif;
+    font-size:16px;
+}
+
+    #main1 p a:hover, #main1 p span:hover {
+        text-decoration: underline;
+    }
+
+
+
+#sp {
+    display: grid;
+    margin-right: -15px;
+    margin-left: -15px;
+    grid-template-columns: repeat(12,8.33333%);
+    grid-column: 1/13;
+}
+
+.sp_detail {
+    height:fit-content;
+    width:500px;
+    grid-column: 1/4;
+    overflow:hidden;
+}
+
+    .sp_detail img {
+        height:400px;
+        margin-left: 30px;
+    }
+
+.detail {
+    grid-column: 7/11;
+}
+
+#sp .detail p {
+    font-size: 24px;
+    color: #66a182;
+    font-weight: 700;
+    line-height: normal;
+    font-family: "Roboto",sans-serif;
+    display: inline-block;
+}
+
+#sp .detail .status, #sp .detail .theloai {
+    width: 100%;
+    float: left;
+    color: #636363;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 20px 0 10px 0;
+}
+
+.form sp {
+    padding: 0px;
+    margin-bottom: 30px;
+}
+
+.soluong {
+    text-transform: none;
+    font-size: 14px;
+    min-width: 80px;
+    font-weight: 700;
+    float: left;
+    line-height: 40px;
+    color: #111;
+}
+
+.button {
+    /* grid-column: 7/11;
+    display: grid;*/
+    float: left;
+    margin-top: 5px;
+}
+
+.btn_add_cart {
+    width: 200px;
+    height: 43px;
+    line-height: 41px;
+    color: #fff;
+    background: #66a182;
+    font-size: 16px;
+    text-align: center;
+    text-transform: none;
+}
+#sp #Themgio{
+    color:blue;
+    grid-column:7/11;
+    margin-bottom:100px;
+
+}
+
+#sp_tab {
+    display: grid;
+    grid-column: 1/13;
+    grid-template-columns: repeat(12,8.33333%);
+    margin-top:60px;
+}
+
+    #sp_tab .thongtinsp {
+        color: #66a182;
+        grid-column: 1/4;
+        margin-left:15px;
+    }
+
+    #sp_tab .thongtin {
+        grid-column: 1/12;
+        margin-left: 15px;
+    }
+
+        #sp_tab .thongtin p {
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+@media screen and (max-width:800px) {
+    .header {
+        display: grid;
+        grid-template-columns: repeat(4,25%);
+    }
+
+    #logo {
+        grid-column: 1/2;
+    }
+
+    .header .search_field {
+        display: none;
+
+    }
+
+    .login {
+        grid-column: 2/4;
+    }
+
+    .giohang {
+        grid-column: 4/4;
+    }
+
+    .navbar .dropdown {
+        display: none;
+    }
+    .navbar a {
+        width: 100%;
+    }
+
+    .banner {
+        height: 100px;
+    }
+
+    #footer .footer1 {
+        grid-column: 2/8;
+        margin-left: 0px;
+    }
+
+    #footer .footer2 a, #footer .footer2 h3 {
+        white-space: nowrap;
+    }
+
+    #main1 {
+        white-space: nowrap;
+    }
+
+    .main2 .main21 {
+        grid-column: 1/12;
+        white-space: nowrap;
+    }
+
+    #main2 .main22 {
+        grid-column: 1/12;
+        font-size: 16px;
+    }
+    .detail,.sp_detail{
+        grid-column:2/12;
+    }
+}

@@ -1,0 +1,401 @@
+﻿
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+    text-decoration: none;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(12,8.33333%);
+    grid-column: 1/13;
+    background-color: aquamarine;
+}
+
+#logo {
+    grid-column: 1/2;
+    margin-left: 50px;
+}
+
+    #logo img {
+        padding: 5px;
+        width: 60px;
+        margin-top: 0px;
+    }
+
+.search_field {
+    display: flex;
+    grid-column: 3/10;
+    align-items: start;
+    margin-top: 15px;
+}
+
+    .search_field .searchbox {
+        width: 600px;
+        height: 40px;
+    }
+
+    .search_field .btnSearch {
+        background-color: yellow;
+        height: 40px;
+    }
+
+.login {
+    margin-top: 20px;
+    grid-column: 10/11;
+    font-size: 20px;
+    white-space: nowrap;
+    width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+    .login label {
+        
+    }
+
+.giohang {
+    margin-top: 20px;
+    grid-column: span 2/13;
+    font-size: 20px;
+    float:left;
+    margin-left:10px;
+}
+    .login a:hover, .giohang a:hover{
+        text-decoration:underline;
+    }
+
+    .login a, .giohang a, .giohang i {
+        color: black;
+    }
+
+    /*Menu*/
+.navbar {
+    overflow: hidden;
+    background-color: aquamarine;
+    font-family: Arial;
+}
+    /* đường dẫn bên trong navigation */
+    .navbar a {
+        font-family: 'Times New Roman', Times, serif;
+        float: left;
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+/* thành phần dropdown */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+    /* nút dropdown */
+    .dropdown .nut_dropdown {
+        border: none;
+        outline: none;
+        color: black;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        margin: 0;
+    }
+    /* thêm màu background khi nút dropdown khi hover */
+    .navbar a:hover, .dropdown:hover .nut_dropdown {
+        text-decoration:underline;
+    }
+    
+    /* Ẩn nội dung dropdown*/
+    .noidung_dropdown {
+        column-count: 2;
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 10;
+    }
+    /* thiết lập style cho đường dẫn bên trong dropdown */
+    .noidung_dropdown a {
+        font-family: 'Times New Roman', Times, serif;
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+        /* chọn background cho đường dẫn bên trong dropdown khi hover*/
+/*        .noidung_dropdown a:hover {
+            background-color: #ddd;
+        }*/
+/* Hiển thị nội dung dropdown khi được hover */
+.dropdown:hover .noidung_dropdown {
+    display: block;
+}
+
+/* Banner */
+
+.banner {
+    background-color: lightgray;
+    display: block;
+    width: 100%;
+    padding-top: 30%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    word-spacing: 12px;
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.9s;
+    left: -100%;
+    display: none;
+    z-index: 1;
+}
+
+.banner-indicator {
+    position: relative;
+    bottom: 24px;
+    z-index: 2;
+}
+
+    .banner-indicator:checked + .banner-image {
+        display: inline-block;
+    }
+
+    .banner-indicator:checked ~ .banner-image {
+        left: 100%;
+    }
+
+    .banner-indicator:checked + .banner-image {
+        left: 0;
+    }
+
+.carousel-button {
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+}
+
+    /* Buttons Icons */
+
+    .carousel-button::before {
+        content: "<";
+    }
+
+.banner-indicator:checked ~ .carousel-button::before {
+    content: ">";
+}
+
+.banner-indicator:checked + .banner-image + .carousel-button::before {
+    content: "o";
+}
+
+.carousel-button::before,
+.banner-indicator:checked ~ .carousel-button::before {
+    line-height: 42px;
+}
+
+.carousel-button {
+    position: absolute;
+    z-index: 2;
+    bottom: 12px;
+    left: 9px;
+    right: auto;
+}
+
+.banner-indicator:checked ~ .carousel-button {
+    left: auto;
+    right: 9px;
+}
+
+.banner-indicator:checked + .banner-image + .carousel-button {
+    display: none;
+}
+
+.banner-indicator:checked ~ .carousel-button:nth-last-of-type(1) {
+    z-index: 2;
+}
+
+.banner-indicator:checked ~ .carousel-button:nth-last-of-type(2) {
+    z-index: 3;
+}
+
+
+    /*DS SP*/
+#main {
+    display: grid;
+    grid-template-columns: repeat(12,8.33333%);
+    grid-column: 1/13;
+    height: auto;
+}
+    #main h2 {
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        grid-column: 1/-1;
+        font-size: 30px;
+        text-align: center;
+        margin-left: 50px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        word-spacing: 1px;
+    }
+    #main #hr1{
+        grid-column:1/13;
+        width:60%;
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom:20px;
+    }
+
+    #main #sanphamNu {
+        grid-column: 1/13;
+        margin-left:50px;
+    }
+#sanphamNu .sp {
+    overflow:hidden;
+    width: 302px;
+    height: 460px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border: 1px solid gray;
+    float: left;
+    background-color: white;
+
+}
+    #sanphamNu .sp img {
+        width: 280px;
+        height: 340px;
+        margin: 10px;
+    }
+#sanphamNu .sp img:hover {
+    opacity: 0.8;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#sanphamNu .sp p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 2px;
+    width: 150px;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 2px;
+    color: #000;
+}
+
+#sanphamNu .sp .sp_text {
+    margin-top: -4px;
+    margin-bottom: -4px;
+    padding: 10px;
+}
+
+#sanphamNu .sp h3 {
+    overflow: hidden;
+    text-overflow: clip;
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000;
+    padding: 2px;
+    white-space: nowrap;
+}
+
+/*    footer*/
+#footer {
+    display: grid;
+    grid-column: 1/13;
+    height: 200px;
+    grid-template-columns: repeat(12,8.33333%);
+    background-color: aquamarine;
+    color: black;
+    margin-top:40px;
+}
+
+    #footer .footer1 {
+        grid-column: 4/8;
+        margin: auto 55px 15px 0;
+
+    }
+
+        #footer .footer1 p {
+            padding: 10px 0;
+        }
+
+    #footer .footer2 {
+        grid-column: 8/13;
+        margin: auto 55px 15px 0;
+    }
+
+        #footer .footer2 p {
+            padding: 10px 0;
+        }
+
+        #footer .footer2 a {
+            color: black;
+            text-decoration: none;
+        }
+
+            #footer .footer2 a:hover {
+                text-decoration:underline;
+            }
+
+@media screen and (max-width:800px) {
+    .header {
+        display: grid;
+        grid-template-columns: repeat(4,25%);
+    }
+
+    #logo {
+        grid-column: 1/2;
+    }
+
+    .header .search_field {
+        grid-column: 2/4;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .giohang {
+        grid-column: 4/4;
+    }
+
+    .navbar .dropdown {
+        display: none;
+    }
+    .navbar a {
+        width: 100%;
+    }
+
+    .banner {
+        height: 100px;
+    }
+
+    #footer .footer1 {
+        grid-column: 2/8;
+        margin-left: 0px;
+    }
+
+    #footer .footer2 a, #footer .footer2 h3 {
+        white-space: nowrap;
+    }
+}

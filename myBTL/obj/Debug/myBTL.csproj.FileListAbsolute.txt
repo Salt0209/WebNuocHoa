@@ -1,0 +1,118 @@
+C:\Users\HP\source\repos\myBTL\myBTL\bin\myBTL.dll.config
+C:\Users\HP\source\repos\myBTL\myBTL\bin\myBTL.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\myBTL.pdb
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\csc.exe
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\csc.exe.config
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\csc.rsp
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\csi.exe
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\csi.exe.config
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\csi.rsp
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\System.AppContext.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\System.Console.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\System.IO.Compression.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\System.Net.Http.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\System.Net.Sockets.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\System.ValueTuple.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\System.Xml.XPath.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\vbc.exe
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\vbc.exe.config
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\vbc.rsp
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP\source\repos\myBTL\myBTL\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\source\repos\myBTL\myBTL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP\source\repos\myBTL\myBTL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP\source\repos\myBTL\myBTL\obj\Debug\myBTL.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\myBTL\myBTL\obj\Debug\myBTL.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\myBTL\myBTL\obj\Debug\myBTL.csproj.CopyComplete
+C:\Users\HP\source\repos\myBTL\myBTL\obj\Debug\myBTL.dll
+C:\Users\HP\source\repos\myBTL\myBTL\obj\Debug\myBTL.pdb
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\myBTL.dll.config
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\myBTL.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\myBTL.pdb
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\csc.exe
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\csc.exe.config
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\csc.rsp
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\csi.exe
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\csi.exe.config
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\csi.rsp
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\Microsoft.Managed.Core.targets
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\System.AppContext.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\System.Collections.Immutable.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\System.Console.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\System.Globalization.Calendars.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\System.IO.Compression.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\System.IO.FileSystem.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\System.Net.Http.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\System.Net.Sockets.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\System.Reflection.Metadata.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\System.ValueTuple.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\System.Xml.XmlDocument.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\System.Xml.XPath.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\vbc.exe
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\vbc.exe.config
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\vbc.rsp
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\VBCSCompiler.exe
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\roslyn\VBCSCompiler.exe.config
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\obj\Debug\myBTL.csproj.AssemblyReference.cache
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\obj\Debug\myBTL.csproj.CoreCompileInputs.cache
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\obj\Debug\myBTL.csproj.CopyComplete
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\obj\Debug\myBTL.dll
+F:\FITHOU\Lập trình web\WebThoiTrang_LTWeb\myBTL\myBTL\obj\Debug\myBTL.pdb
